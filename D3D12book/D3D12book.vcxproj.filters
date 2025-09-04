@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>{fde79d41-9e34-4d54-9547-47c88ab4aa96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ch6">
+      <UniqueIdentifier>{7c710e1a-8b81-41fe-b82a-a7f458b72824}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ch6\Shader">
+      <UniqueIdentifier>{8eafa20a-5f4f-40b7-b55c-b8377de55e39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ch7">
+      <UniqueIdentifier>{bd433a6e-d4f1-469f-9925-f26921b19c13}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ch7\Shader">
+      <UniqueIdentifier>{aefa147e-e029-4efe-be93-30de45e131d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ch8">
+      <UniqueIdentifier>{0bbae420-37e8-4910-aa7e-22dec4d4303b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ch8\Shaders">
+      <UniqueIdentifier>{a2578f93-2c91-4e3a-99ab-65d7429ac55f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="d3dApp.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="d3dUtil.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="GameTimer.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="DDSTextureLoader.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="MathHelper.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="BoxApp.cpp">
+      <Filter>Ch6</Filter>
+    </ClCompile>
+    <ClCompile Include="FrameResource.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="ShapesApp.cpp">
+      <Filter>Ch7</Filter>
+    </ClCompile>
+    <ClCompile Include="GeometryGenerator.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="LitWavesApp.cpp">
+      <Filter>Ch8</Filter>
+    </ClCompile>
+    <ClCompile Include="Waves.cpp">
+      <Filter>Ch8</Filter>
+    </ClCompile>
+    <ClCompile Include="LitColumnsApp.cpp">
+      <Filter>Ch8</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="d3dApp.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="d3dUtil.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="GameTimer.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="d3dx12.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="DDSTextureLoader.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="MathHelper.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="UploadBuffer.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="BoxApp.h">
+      <Filter>Ch6</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameResource.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="GeometryGenerator.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="ShapesApp.h">
+      <Filter>Ch7</Filter>
+    </ClInclude>
+    <ClInclude Include="LitWavesApp.h">
+      <Filter>Ch8</Filter>
+    </ClInclude>
+    <ClInclude Include="Waves.h">
+      <Filter>Ch8</Filter>
+    </ClInclude>
+    <ClInclude Include="LitColumnsApp.h">
+      <Filter>Ch8</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="color.hlsl">
+      <Filter>Ch6\Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="ShapeColor.hlsl">
+      <Filter>Ch7\Shader</Filter>
+    </FxCompile>
+    <FxCompile Include="Default.hlsl">
+      <Filter>Ch8\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="LightingUtil.hlsl">
+      <Filter>Ch8\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="LitDefault.hlsl">
+      <Filter>Ch8\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="LitLightingUtil.hlsl">
+      <Filter>Ch8\Shaders</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
